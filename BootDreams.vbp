@@ -1,0 +1,159 @@
+Type=Exe
+Reference=*\G{00020430-0000-0000-C000-000000000046}#2.0#0#..\..\..\..\Windows\SysWOW64\stdole2.tlb#OLE Automation
+Form=frmSelectCDBurner.frm
+Form=frmSelectMainBinary.frm
+Form=frmSelectMRLogo.frm
+Module=modAssociate; modAssociate.bas
+Module=modDummyFile; modDummyFile.bas
+Module=modMainBinary; modMainBinary.bas
+Module=modCDburn; modCDburn.bas
+Module=modCDimage; modCDimage.bas
+Module=modIP; modIP.bas
+Form=frmMain.frm
+Form=frmSelectCDDATracks.frm
+Module=modPubDeclares; modPubDeclares.bas
+Module=modCommonDialog; modCommonDialog.bas
+Module=modPubFunctions; modPubFunctions.bas
+Module=modISOHeader; modISOHeader.bas
+Module=modCheckVersion; modCheckVersion.bas
+Form=frmAssociation.frm
+Module=modPrevInst; modPrevInst.bas
+Form=frmDummySize.frm
+ResFile32="icons\dj.res"
+IconForm="frmMain"
+Startup="frmMain"
+HelpFile=""
+Title="BootDreams"
+ExeName32="BootDreams.exe"
+Command32=""
+Name="BootDreams"
+HelpContextID="0"
+CompatibleMode="0"
+MajorVer=1
+MinorVer=0
+RevisionVer=0
+AutoIncrementVer=0
+ServerSupportFiles=0
+VersionCompanyName="Dreamcast Help"
+VersionProductName="BootDreams"
+CompilationType=0
+OptimizationType=0
+FavorPentiumPro(tm)=0
+CodeViewDebugInfo=0
+NoAliasing=0
+BoundsCheck=0
+OverflowCheck=0
+FlPointCheck=0
+FDIVCheck=0
+UnroundedFP=0
+StartMode=0
+Unattended=0
+Retained=0
+ThreadPerObject=0
+MaxNumberOfThreads=1
+RemoveUnusedControlInfo=0
+DebugStartupOption=0
+
+[MS Transaction Server]
+AutoRefresh=1
+
+[TaskList]
+Num=0
+
+[TASK1]
+Description=
+Status=
+Priority=
+Comment=
+AssignedTo=
+
+[TASK2]
+Description=
+Status=
+Priority=
+Comment=
+AssignedTo=
+
+[TASK3]
+Description=
+Status=
+Priority=
+Comment=
+AssignedTo=
+
+[TASK4]
+Description=
+Status=
+Priority=
+Comment=
+AssignedTo=
+
+[TASK5]
+Description=
+Status=
+Priority=
+Comment=
+AssignedTo=
+
+[TASK6]
+Description=
+Status=
+Priority=
+Comment=
+AssignedTo=
+
+[TASK7]
+Description=
+Status=
+Priority=
+Comment=
+AssignedTo=
+
+[TASK8]
+Description=
+Status=
+Priority=
+Comment=
+AssignedTo=
+
+[TASK9]
+Description=
+Status=
+Priority=
+Comment=
+AssignedTo=
+
+[TASK10]
+Description=
+Status=
+Priority=
+Comment=
+AssignedTo=
+
+[TASK11]
+Description=
+Status=
+Priority=
+Comment=
+AssignedTo=
+
+[TASK12]
+Description=
+Status=
+Priority=
+Comment=
+AssignedTo=
+
+[TASK13]
+Description=
+Status=
+Priority=
+AssignedTo=
+Comment=
+
+[TASK14]
+Description=
+Status=
+Priority=
+AssignedTo=
+Comment=

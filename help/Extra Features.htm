@@ -1,0 +1,63 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>Extra Features</title>
+<meta name="GENERATOR" content="WinCHM">
+<meta http-equiv="Content-Type" content="text/html; charset=Windows-1252">
+
+</head>
+
+<body>
+<P><STRONG><FONT face=Arial color=#6d4141 size=4>Extra Features</FONT></STRONG></P>
+<BLOCKQUOTE dir=ltr style="MARGIN-RIGHT: 0px">
+  <P><FONT face=Arial color=#000000 size=2>      
+        
+  BootDreams will check many things with your selfboot folder to make sure you are 
+  not missing anything      
+basic.          
+              
+        
+        
+</FONT></P>
+  <P><FONT face=Arial size=2><EM><U>Folder Setup</U></EM><BR>BootDreams checks 
+  to make sure the selfboot folder has at least one file in it. It also checks 
+  to make sure that the&nbsp;one file is not an IP.BIN file.</FONT></P>
+  <P><FONT face=Arial size=2><EM><U>Main Binaries</U></EM><BR>BootDreams uses a few ways to try and auto-detect the 
+  main binary filename.</FONT></P>
+  <UL>
+    <LI><FONT face=Arial size=2>a file named 1ST_READ.BIN is in the selfboot 
+    folder</FONT>
+    <LI><FONT face=Arial size=2>one file in the selfboot folder and it's not a 
+    IP.BIN or 1ST_READ.BIN</FONT>
+    <LI><FONT face=Arial size=2>two files in the selfboot folder and one of the 
+    two is a IP.BIN</FONT>
+    <LI><FONT face=Arial size=2>more 
+    than two files with a IP.BIN (the main binary 
+    set in the IP.BIN is used if the filename exists)</FONT></LI></UL>
+  <P><FONT face=Arial size=2>If the 
+  main binary is still not found&nbsp;then you have to select it yourself. If 
+  the main binary was found but was too long, you will have to rename it to something with 
+  16 characters or less.</FONT></P>
+  <P><FONT face=Arial size=2>Once the filename of the main binary is known, 
+  BootDreams will check if it is a scrambled, unscrambled, ELF, Katana, WinCE or 
+  Naomi binary.</FONT></P>
+  <P><FONT face=Arial size=2>If the binary is scrambled then it will go onto the 
+  next step (IP.BIN). If it is unscrambled, Katana, WinCE or a Naomi 
+  binary&nbsp;BootDreams will ask if you want to scramble it. Katana, WinCE or 
+  Naomi binaries usually do not need to be scrambled because the IP.BIN will do 
+  this on the Dreamcast hardware if it had been previously hacked with binhack. 
+  If you choose not to scramble the binary BootDreams will still create the 
+  image with the unscrambled binary.</FONT></P>
+  <P><FONT face=Arial size=2>If the binary is a ELF, it will ask you to convert 
+  it to a binary. If you choose not to convert the ELF to a binary then 
+  BootDreams will stop.</FONT></P>
+  <P><FONT face=Arial size=2><EM><U>IP.BIN</U></EM><BR>BootDreams does a 
+  couple checks to make sure everything is good with the IP.BIN file. First it will make sure 
+  it is not missing, and if it is&nbsp;BootDreams will ask you to make one 
+  and use the main binary filename for the main binary field in the IP.BIN. If the IP.BIN file 
+  exists then it checks to make sure the main binary field in the IP.BIN 
+  is pointing to the current main binary auto-detected (or manually selected) and will have you fix 
+  it if the field and current main binary are different. If 
+  the IP.BIN is not created or the IP.BIN is not fixed then BootDreams will 
+  stop.</FONT></P></BLOCKQUOTE></body>
+</html>

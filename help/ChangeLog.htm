@@ -1,0 +1,123 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>ChangeLog</title>
+<meta name="GENERATOR" content="WinCHM">
+<meta http-equiv="Content-Type" content="text/html; charset=Windows-1252">
+
+</head>
+
+<body>
+<P><STRONG><FONT face=Arial color=#6d4141 
+size=4>ChangeLog</FONT></STRONG></P>
+<BLOCKQUOTE dir=ltr style="MARGIN-RIGHT: 0px"><FONT face=Arial color=#6d4141 
+  size=2>
+  <P><FONT color=#000000>1.0.6a<BR> 
+      - fixed "ISO settings" not getting enabled 
+  in some situations         
+  </FONT></P>
+  <P><FONT color=#000000>1.0.6<BR>- 
+  fixed unhandled BootDreams icon in Add\Remove programs (huge blank space)<BR>- 
+  now checks if a folder only has a IP.BIN, then stops if true<BR>- now checks 
+  if scramble.exe successfully scrambled a file<BR>- no longer continues if the 
+  IP.BIN does not point to the main binary and it does not get fixed<BR>- 
+  ogg\voc\aiff\snd\au support for CDDA<BR>- SoX with mp3\ogg support, mpg123 
+  removed<BR>- now checks for blank\multisession CD-Rs before burning<BR>- the selected MR is now diplayed in the 
+  select a MR logo window<BR>- drag and drop support, also works with MR 
+  and CDDA windows (dropped files are moved to the folders)<BR>- CDDA, MR, and Main 
+  Binary&nbsp;lists are refreshed if new files are found<BR>- now uses the same\one instance 
+  (did I already do this?)<BR>- changes to file association<BR>- burning DiscJuggler images with CDDA is now 
+  supported<BR> - 
+  create dummy files for 650 MB CD-Rs<BR>   
+  - bugfixes<BR>- fixed dummy files not 
+  big&nbsp;enough for CDDA and audio dummy layouts <BR>- changing the write mode&nbsp;for&nbsp;ISOs 
+  in&nbsp;ImgRecord and CDRecord's multisession format (Mode1 or Mode2 Form1) 
+  supported </FONT></P>
+  <P><FONT color=#000000>1.0.5a<BR>- fixed BootDreams from 
+  exiting in bin checking routine (thanks Xiaopang)<BR>      - 
+  readded CUE support</FONT></P>
+  <P><FONT color=#000000>1.0.5<BR>- bugfix: CDDA audio in CDRecord GUI needed 
+  the -swab switch<BR>- bugfix: the Multisession checkbox wasn't shown for 
+  burning ISOs<BR>- new: Data\Data CDDA support 
+  in the CDRecord GUI which is better if you create a dummy file (bin2boot creates these type of 
+  CDDA images)</FONT></P>
+  <P><FONT color=#000000>1.0.4<BR>- new: Alcohol 120% support using mds4dc!<BR>- 
+  change: auto-dummying code had to be reworked -- a lot better this time 
+  around<BR>- change: GUI fix (since disc 
+  format doesn't actually do anything if you add CDDA tracks, I disabled it if the add CDDA menu is checked)<BR>- 
+  change: CDDA tracks are converted to raw now, as required by mds4dc<BR>- 
+  updated: more error-proof checks</FONT></P>
+  <P><FONT color=#000000>1.0.3b<BR>- change: CDRecord 2.01 MinGW (works with 
+  cygwin open!)<BR>- remove: CUE support since CDRecord doesn't support 2352 
+  sector tracks<BR>- new: the installer 
+  creates a shortcut in the SendTo menu -- sending folders to BootDreams through here works</FONT></P>
+  <P><FONT color=#000000>1.0.3a<BR>- change: downgraded to CDRecord 2.01 (2.01 
+  a26 is\was unstable)<BR>- change: blank CDDA tracks (amount set by you)<BR>- 
+  improve: ELF support (deleted your ELF if cygwin was running)</FONT></P>
+  <P><FONT color=#000000>1.0.3<BR>- bugfix: dummying overwrite<BR>- bugfix: 
+  possible memory leak when closing<BR>- change: CDDA padded with 3 blank 
+  tracks<BR>- improve: cleaned source code<BR>- improve: more fail-proof IP.BIN 
+  checks<BR>- improve: detecting 1ST_READ.BIN file name<BR>- improve: file 
+  associating<BR>- update: cdi4dc 0.3b<BR>- new: CUE and ISO support<BR>- new: 
+  added the uninstaller<BR>- removed: BDS functionality<BR>- probably a few 
+  others I'm forgetting (not worth noting)</FONT></P>
+  <P><FONT color=#000000>1.0.2a<BR>- fixed overflow when creating IP.BINs<BR>- 
+  fixed conflicting filenames when burning CDI images<BR>- removed extra 
+  characters in select CD burner</FONT></P>
+  <P><FONT color=#000000>1.0.2<BR>- CDI burner appeared to be broken with 
+  Audio\Data CDIs<BR>- can burn CDDA (both mp3 and wav - will convert both to 
+  valid WAVs)<BR>- cosmetic changes and other minor adjustments</FONT></P>
+  <P><FONT color=#000000>1.0.1b<BR>- updated bin detection (see 1ST_READ.BIN 
+  Checker 2.0.1)<BR>- fixed scrambling read-only binaries<BR>- fixed closed 
+  windows when a file isn't selected and OK is pressed<BR>- updated BootDreams' 
+  MR logo</FONT></P>
+  <P><FONT color=#000000>1.0.1a<BR>- fixed the CDI burner type mismatch 
+  error<BR>- fixed no files displayed in main binary selector</FONT></P>
+  <P><FONT color=#000000>1.0.1<BR>- cosmetic bug fixes to CDI burner<BR>- 
+  removed "Used complete paths"<BR>- replaced bin2boot with cdi4dc<BR>- fixes to 
+  checking for existing selfboot folder<BR>- save as dialog moved directly 
+  before creating ISO<BR>- fixed dragging and dropping CDI to BootDreams.exe 
+  file<BR>- slightly better buttons<BR>- upgraded cdirip 0.6.2 to 0.6.3<BR>- 
+  rebuilt my modified version of cdi2nero (smaller)</FONT></P>
+  <P><FONT color=#000000>1.0<BR>- now uses my own IP.BIN writer code<BR>- now 
+  uses my own MR logo code<BR>- rewrote the select CD writer code (should be a 
+  little faster)<BR>- rewrote the code that gets the msinfo for Audio/Data 
+  CDs<BR>- uses a modified version of cdi2nero<BR>- merged all shell execution 
+  related code<BR>- added a save file dialog<BR>- new look<BR>- rewrote the 
+  dummy file code<BR>- included the Nero ASPI</FONT></P>
+  <P><FONT color=#000000>0.6.1<BR>- Fixed: BDS support in non-'Use complete 
+  paths' mode<BR>- Fixed: Menus not hidden under CDI burner when BootDreams is 
+  first opened<BR>- Fixed: BDS file selector now only shows *.bds files<BR>- 
+  Fixed: IP.BIN logo file selector now only shows *.mr files</FONT></P>
+  <P><FONT color=#000000>0.6<BR>- ability to hide IP.BIN on disc<BR>- ability to 
+  disable RR, J, and l. filenames<BR>- ability to not merge last session of a 
+  multi-session disc<BR>- options are disabled if current task does not use it 
+  (menu)<BR>- CDRecord multi-session now in format drop-down box<BR>- BootDreams 
+  help file updated</FONT></P>
+  <P><FONT color=#000000>0.5.2<BR>- Use complete paths fixed<BR>- Audio/Data 
+  CDRecord dummy fix<BR>- grammacal errors</FONT></P>
+  <P><FONT color=#000000>0.5.1<BR>- CDRecord error fix<BR>- CDI Burner 
+  fix</FONT></P>
+  <P><FONT color=#000000>0.5<BR>- ELF support<BR>- Use complete paths 
+  option<BR>- open folder when image is done<BR>- help file<BR>- bug fixes<BR>- 
+  cd label underscore<BR>- cd label not capitalized<BR>- grammar fix in CDI 
+  Burner<BR>- max dummy session is 665MB</FONT></P>
+  <P><FONT color=#000000>0.4.1<BR>- ISO creation problems<BR>- dummied data 
+  session max 670MB</FONT></P>
+  <P><FONT color=#000000>0.4<BR>- error handling<BR>- settings saved to an 
+  INI<BR>- CDI file association<BR>- run time error fixes<BR>- unknown error 
+  fixes</FONT></P>
+  <P><FONT color=#000000>0.3<BR>- CD labeling (DiscJuggler/Nero images)<BR>- 
+  insert logo into IP.BIN<BR>- CD label changes to folder name<BR>- BootDreams 
+  IP.BIN logo<BR>- added Ipcreate.exe (D'OH!)<BR>- CDI burner fixed<BR>- 
+  multi-session burning fixed<BR>- bad burns with created IP.BINs<BR>- bug 
+  fixes<BR>- source code cleaned</FONT></P>
+  <P><FONT color=#000000>0.2.1<BR>- CDI images w/ ucase names work now<BR>- 
+  change write speed w/ CDI image burning<BR>- burn DiscJuggler images 
+  (Audio/Data support added)</FONT></P>
+  <P><FONT color=#000000>0.2<BR>- tell user if ASPI needs install<BR>- burn 
+  DiscJuggler images</FONT></P>
+  <P><FONT color=#000000>0.1.1<BR>- fixed BDS support</FONT></P>
+  <P><FONT color=#000000>0.1<BR>- initial 
+release</FONT></FONT></P></BLOCKQUOTE></body>
+</html>
